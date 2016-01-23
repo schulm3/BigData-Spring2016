@@ -1,0 +1,13 @@
+function map(String matrix_name, String input_matrix):
+	// matrix_name: a or b
+	// input_matrix: the contents of the matrix
+	for each key in input_matrix:
+		EmitIntermediate(key,input_value)
+
+function reduce(string key, Iterator values):
+	// key: the position
+	// values: the values that have been counted under each key
+	sum=0
+	for each x in values:
+		sum += x  //adds all of the values together
+	emit(key, sum)
