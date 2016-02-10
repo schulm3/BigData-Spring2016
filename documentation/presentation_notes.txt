@@ -1,0 +1,30 @@
+---------------------------------------------------------------
+  	       Big Data and its Technical Challenges:
+---------------------------------------------------------------
+By: Venkata & Priyadia...
+--------------------------
+2/9/2016
+--------------------------
+
+What is big data? Google it. Powerful as Tsunami, can be controlled.
+
+Evolution: used to have not as much, now we have a lot. And a lot
+		of people are using it
+
+Phases:
+Data Acuisition->Information Extraction and Cleaning->Data Integration
+								|
+								V
+				Interpretation<-Modeling & Analysis
+
+CHALLENGES:
+-Heterogeneity
+-Inconsistency & Incompleteness
+-Scalability
+-Timeliness
+-Privacy/Ownership
+-Human perspective
+
+Conclusions:
+Big Data is great!
+
