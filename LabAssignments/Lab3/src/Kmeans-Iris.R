@@ -1,0 +1,6 @@
+data("C:/Users/Mark Schulz/Documents/School/BDA/Lab 3/Code/HMP_Dataset/Brush_teeth/Accelerometer-2011-04-11-13-28-18-brush_teeth-f1.txt")
+x<-rbind(iris$Sepal.Length, iris$Sepal.Width, iris$Petal.Length)
+x<-t(x)
+km <- kmeans(x, 3, 15)
+print(km)
+plot(x, col = km$cluster)
